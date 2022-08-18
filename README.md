@@ -12,22 +12,22 @@ Todo este processo contou com a IDE do **Eclispe** e o uso do **Maven** para a c
 
 ![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)![JUnit](https://img.shields.io/badge/-JUnit%20-05122A?style=for-the-badge&logo=JUnit&logoColor=007ACC)![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)![Cucumber](https://img.shields.io/badge/-Cucumber%20-05122A?style=for-the-badge&logo=Cucumber&logoColor=007ACC)![MAVEN](https://img.shields.io/badge/-Maven%20-05122A?style=for-the-badge&logo=Maven&logoColor=007ACC)![ECLIPSE](https://img.shields.io/badge/-Eclipse%20-05122A?style=for-the-badge&logo=Eclipse&logoColor=007ACC)![Git](https://img.shields.io/badge/Git-252219?style=for-the-badge&logo=git&logoColor=git)![GitHub](https://img.shields.io/badge/GitHub-252219?style=for-the-badge&logo=git&logoColor=github)![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
 
-<h2> 🛠 Bibliotecas</h2>
+<h2> :books: Bibliotecas</h2>
 
 As principais bibliotecas utilizadas neste projeto foram:
 
 - Webdrivermanager, para download e configuração do driver do Selenium.
 - Cucumber, para a criação de dashboard de resultado de testes.
 
-<h2> 🛠 Executar os Testes</h2>
+<h2> :white_check_mark: Executar os Testes</h2>
 
 Para executar os testes, pela IDE de sua preferência, basta fazer um git clone do projeto e executar o arquivo TestRunner.java que iniciará todos os testes. Para o uso adequado dos testes, será necessário ainda rodar a aplicação do Vitrine CasaPark em localhost, na porta 3001.
 
-<h2> 🛠 Relatório de Testes</h2>
+<h2> :chart_with_upwards_trend: Relatório de Testes</h2>
 
 Ao executar os testes, os relatórios HTML estão sendo gravados dentro do diretório _target/cucumber-reports/._ No report HTML, está registrada a execução dos casos de testes, juntamente a evidências de sucesso/falha nos testes executados, incluindo arquivos de imagem no formato jpg sobre os resultados apurados. Estes últimos, relacionados a imagens, estão salvos no diretório screenshots
 
-<h2> 🛠 Sobre os Resultados dos Testes</h2>
+<h2> :pencil: Sobre os Resultados dos Testes</h2>
 
 Devido a natureza do desafio, convém destacar os 2 principais erros encontrados no sistema:
 
@@ -36,7 +36,7 @@ Devido a natureza do desafio, convém destacar os 2 principais erros encontrados
 
 ![1660603203964](image/README/1660603203964.png)
 
-<h2> 🛠 Considerações Finais</h2>
+<h2> :clipboard: Considerações Finais</h2>
 
 O projeto trouxe em si vários desafios, pois o objetivo principal era justamente encontrar, da forma mais performática possível, o maior número de erros, falhas ou bugs na aplicação testada. E, claro, na medida que o conhecimento vai sendo aprimorado este ideal se torna cada vez mais rigoroso, necessitando de ajustes na linguagem, com intuito de entregar um código cada vez mais limpo e adequado ao Teste.
 
