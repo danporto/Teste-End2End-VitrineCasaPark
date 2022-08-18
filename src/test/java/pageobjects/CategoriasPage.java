@@ -26,6 +26,26 @@ public class CategoriasPage extends MetodosUteis {
 	// Para buscar no menu Categorias
 	@FindBy(how = How.CSS, using = "#basic-navbar-nav > div > a:nth-child(2)")
 	private WebElement menuCategorias;
+	
+	// Para buscar o menu Cadastrar dentro de Categorias
+	@FindBy(how = How.XPATH, using = "//*[@id=\"tabs-categorias-tab-cadastrar-categoria\"]")
+	private WebElement menuCadastrarCategorias;
+	
+	// Achar o campo nome da Categoria.
+	@FindBy(how = How.ID, using = "formBasicEmail")
+	private WebElement nomeDaCategoria;
+	
+	// Achar o campo nome da Alias.
+	@FindBy(how = How.CSS, using = ".form-group + .form-group :nth-child(2)")
+	private WebElement nomeDaAlias;
+	
+	// Achar o botão imagem.
+	@FindBy(how = How.ID, using = "image")
+	private WebElement Imagem;
+	
+	// Achar o botão Cadastrar
+	@FindBy(how = How.CSS, using = "#tabs-categorias-tabpane-cadastrar-categoria > div > div > button")
+	private WebElement botaoCadastrar;
 
 	// Simular o clique do botão
 	public void clicarEmCategorias() {
@@ -34,19 +54,11 @@ public class CategoriasPage extends MetodosUteis {
 
 	}
 
-	// Para buscar o menu Cadastrar dentro de Categorias
-	@FindBy(how = How.XPATH, using = "//*[@id=\"tabs-categorias-tab-cadastrar-categoria\"]")
-	private WebElement menuCadastrarCategorias;
-
 	// Para simular o clique no menu Cadastrar dentro de Categorias
 	public void clicarEmCadastrarCategorias() {
 		esperarElemento(menuCadastrarCategorias);
 		menuCadastrarCategorias.click();
 	}
-
-	// Achar o campo nome da Categoria.
-	@FindBy(how = How.ID, using = "formBasicEmail")
-	private WebElement nomeDaCategoria;
 
 	// Digitar o nome da Categoria
 	public void digitarNomeDaCategoria(String campoNomeDaCategoria) {
@@ -54,19 +66,11 @@ public class CategoriasPage extends MetodosUteis {
 		nomeDaCategoria.sendKeys(campoNomeDaCategoria);
 	}
 
-	// Achar o campo nome da Alias.
-	@FindBy(how = How.CSS, using = ".form-group + .form-group :nth-child(2)")
-	private WebElement nomeDaAlias;
-
 	// Digitar o nome da Alias
 	public void digitarNomeDaAlias(String campoNomeDaAlias) {
 		esperarElemento(nomeDaAlias);
 		nomeDaAlias.sendKeys(campoNomeDaAlias);
 	}
-
-	// Achar o botão imagem.
-	@FindBy(how = How.ID, using = "image")
-	private WebElement Imagem;
 
 	// Incluir Imagem
 	public void incluirImagem() {
@@ -81,10 +85,6 @@ public class CategoriasPage extends MetodosUteis {
 		// "/image/camamesaebanho.jpg");
 
 	}
-
-	// Achar o botão Cadastrar
-	@FindBy(how = How.CSS, using = "#tabs-categorias-tabpane-cadastrar-categoria > div > div > button")
-	private WebElement botaoCadastrar;
 
 	// Para simular o clique no menu Cadastrar dentro de Categorias
 	public void clicarEmCadastrar() {

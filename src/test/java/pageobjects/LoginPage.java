@@ -32,7 +32,6 @@ public class LoginPage extends MetodosUteis {
 	// Para achar o botão de Entrar
 	@FindBy(how = How.TAG_NAME, using = "button")
 	private WebElement botaoEntrar;
-	
 
 	// Métodos que vão validar os campos acima:
 	
