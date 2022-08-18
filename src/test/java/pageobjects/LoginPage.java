@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import Utils.MetodosUteis;
+import utils.MetodosUteis;
 
 public class LoginPage extends MetodosUteis {
 
