@@ -76,7 +76,7 @@ public class CategoriasPage extends MetodosUteis {
 	public void incluirImagem() {
 		esperarElemento(Imagem);
 		WebElement uploadImage = driver.findElement(By.id("image"));
-		uploadImage.sendKeys(System.getProperty("user.dir") + "/image/areaexterna.jpeg");
+		uploadImage.sendKeys(System.getProperty("user.dir") + "/src/test/resources/image/areaexterna.jpeg");
 
 		// Outras formas de se obter o mesmo resultado.
 		// Imagem.sendKeys(System.getProperty("user.dir") +
